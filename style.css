@@ -1,0 +1,214 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Doppio+One);
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+	font: normal normal normal 12px/14px 'Doppio One'; 
+	color: #aaa; 
+	text-shadow: 0 1px rgba( 0,0,0,.2 ) 
+}
+
+body{ 
+	overflow: hidden; 
+	background-color: black; 
+	background-image: url( black_linen_v2.png ); 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	right: 0; 
+	bottom:0 
+}
+
+h1.title{ 
+	font: normal normal normal 28px Carme, sans-serif; 
+	position: absolute; 
+	left: 10px; 
+	top: 10px 
+}
+
+#screen{ 
+	position: absolute; 
+	left: 41.5%; 
+	top: 50%; 
+	width: 853px; 
+	height: 480px;
+	margin-top: -240px;
+	margin-left: -426px;
+	background-color: black; /* no transparent */
+	overflow: hidden; 
+	box-shadow: 0 0 10px rgba( 0,0,0,.8 ) 
+}
+
+section.text{ 
+	position: absolute; 
+	left: 10px; 
+	top: 420px; 
+	width: 640px; 
+	bottom: 0; 
+	overflow: auto 
+}
+
+section.text div{ 
+	margin: 1em 0; 
+	column-count: 2; 
+	column-gap: 22px; 
+	-moz-column-count: 2; 
+	-webkit-column-count: 2; 
+	-moz-column-gap: 22px; 
+	-webkit-column-gap: 22px;
+}
+
+section.text p{ 
+	margin-bottom: 1em 
+}
+
+section.text h1{ 
+	column-span: all; 
+	font-weight: bold; 
+	text-transform: uppercase 
+}
+
+section.text b{ 
+	font-weight: bold; 
+	color: #ccc 
+}
+
+div.layer{ 
+	position: absolute; 
+	width: 640px; 
+	height: 360px; 
+	opacity: 0; 
+	overflow: hidden; 
+	left: 50%; 
+	top: 50% 
+}
+
+#controls{ 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	background-color: black; 
+	background-image: url( black_linen_v2.png ); 
+	bottom: 0; 
+	width: 260px; 
+	overflow: auto; 
+	box-shadow: 0 0 10px rgba( 0,0,0,.8 ); 
+	padding: 10px;
+	
+}
+
+#controls h1{ 
+	font-weight: bold; 
+	color: #ccc; 
+	margin: 8px 0 
+}
+
+.panel{ 
+	position: relative; 
+	border-bottom: 1px solid white 
+}
+
+.panel h1{ 
+	font-weight: bold; 
+	color: white; 
+	margin: 1em 0 .5em 0 
+}
+
+.panel h2{ 
+	font-weight: bold; 
+	color: #eee; 
+	margin: .25em 0 .25em 0 
+}
+
+.ui-sortable-helper{ 
+	background-image: url( black_linen_v2.png ); 
+	opacity: .5; 
+	padding: 5px 
+}
+
+li{ 
+	list-style-type: none 
+}
+.sunken{
+	background-color: rgba( 0,0,0,.2 ); 
+	border-top: 1px solid rgba( 0,0,0,.2 ); 
+	border-left: 1px solid rgba( 0,0,0,.2 ); 
+	border-bottom: 1px solid rgba( 255,255,255,.2 ); 
+	border-right: 1px solid rgba( 255,255,255,.2 ); 
+}
+
+.raised{
+	background-color: rgba( 255,255,255,.2 ); 
+	border-top: 1px solid rgba( 255,255,255,.2 ); 
+	border-left: 1px solid rgba( 255,255,255,.2 ); 
+	border-bottom: 1px solid rgba( 0,0,0,.2 ); 
+	border-right: 1px solid rgba( 0,0,0,.2 ); 
+}
+
+.slider{ 
+	position: relative; 
+	overflow: hidden 
+}
+
+.slider .bar{ 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	height: 100%; 
+	background-color: rgba( 255,255,255, .2 ); 
+}
+
+.dropzone{ 
+	width: 100%; 
+	color: white; 
+	text-align: center; 
+	padding: 1em 0 
+}
+
+.mainButtons{ 
+	margin-bottom: 1em; 
+	height: 90px; 
+	display: block 
+}
+
+a{ 
+	color: white; 
+	text-decoration: none 
+}
+
+#layerTypesSelector{ 
+	float: left; 
+	width: 100% 
+}
+
+#layerTypesSelector li{ 
+	float: left; 
+	margin-right: 5px 
+}
+
+.button{ 
+	font-size: 12px 
+}
+
+.handler{ 
+	background-color: rgba( 255,255,255, .2 ); 
+	padding: 4px 
+}
+
+#author{
+	width: 400px;
+	height: 30px;
+
+	position: absolute;
+	bottom: 0px;
+	left: 2px;
+}
+
+#note{
+	width: 380px;
+	height: 42px;
+
+	position: absolute;
+	top: 0px;
+	left: 83px;
+}

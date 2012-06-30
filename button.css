@@ -1,0 +1,44 @@
+button,
+.buttons li a,
+.button{ 
+line-height: 2.6em;
+color: #444;
+border: 1px solid #ccc;
+background:#f6f6f6;
+background-image:-moz-linear-gradient(top,#ffffff,#efefef);
+background-image:-webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#efefef));
+filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff,endColorStr=#efefef);
+-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(startColorStr=#FFFFFF, endColorStr=#EFEFEF)";
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+white-space:nowrap;
+vertical-align:middle;
+cursor:pointer;
+overflow:visible;
+padding:0.5em 0.75em;
+-moz-box-shadow:0 0 3px #ccc;
+-webkit-box-shadow:0 0 3px #ccc;
+box-shadow:0 0 3px #ccc;
+}
+
+button:hover,
+button:focus,
+.buttons li a:hover,
+.buttons li a:focus,
+.button:hover,
+.button:focus {
+color: #222;
+border-color:#999;
+background-color:#f3f3f3;
+background:-moz-linear-gradient(top,#ffffff,#ebebeb);
+background-image:-webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#ebebeb));
+filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff,endColorStr=#ebebeb);
+-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(startColorStr=#FFFFFF, endColorStr=#EBEBEB)";
+outline:0;
+-moz-box-shadow:0 0 3px #999;
+-webkit-box-shadow:0 0 3px #999;
+box-shadow:0 0 3px #999;
+}
+
+.button img{ vertical-align: middle }
